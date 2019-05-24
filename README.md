@@ -1,7 +1,7 @@
 # bestfitter-airbus-challenge-sp19
 
 ## Introduction
-This repository contains work done on the [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection) as part of the Data Science Practicum class (CSCI-8360) at the University of Georgia. The competition is hosted by Kaggle and part of the task is addressed in this work. The task is originally one of semantic object segmentation but this work limits the task to segmentation at pixel level. Objects with the same label are part of the same mass and unsegmented from each other. Additionally, the competition also asks that the segmentation be done in the form of aligned bounding boxes about the ships but the methods implemented here freely label pixels without following that restriction. Refer the Wiki for a more complete problem and methods description.
+This repository contains work done on the [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection) as part of the Data Science Practicum class (CSCI-8360) at the University of Georgia. The competition is hosted by Kaggle and part of the task is addressed in this work. The task is originally one of semantic object segmentation but this work limits the task to segmentation at pixel level. Objects with the same label are part of the same mass and unsegmented from each other. Additionally, the competition also asks that the segmentation be done in the form of aligned bounding boxes about the ships but the methods implemented here freely label pixels without following that restriction. 
 
 <p align="center">
  <img align="center" src="https://i.ibb.co/yQ090jT/image.png">
