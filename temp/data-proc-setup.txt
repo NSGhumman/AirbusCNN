@@ -1,0 +1,23 @@
+Apparently, I need to run this command before I can do anything meaningful with pip install.
+
+sudo apt-get install python-dev  \
+     build-essential libssl-dev libffi-dev \
+     libxml2-dev libxslt1-dev zlib1g-dev \
+     python-pip
+
+sudo apt-get python-tk
+
+Python Dependencies:
+	
+	[1] keras
+	[2] opencv-python
+	[3] python 2.7.8
+	[4] matplotlib
+	[4] numpy
+
+
+-------------------------------------------------------------------------
+Notes:
+	[1] Do sudo pip installs as opposed to local installs with --user. 
+	    Why? Maybe has to do with access to slave computers.
+	[2] OR you could do conda installs directly for the modules and ignore the apt-gets at the top.
