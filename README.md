@@ -38,7 +38,7 @@ python Brain.py --epochs=200 --learningrate=0.01 --batchsize=20 --samplesize=400
 After the run is complete, the weights are saved in ```models``` directory in a file with model name and a timestamp as the title.
 
 ## Ongoing work
-The networks need some work done. Their learning is extremely limited at the moment. The FCN is limited by its small parameter space but the ResNetFCN - with pretrained weights on ImageNet - seems promising (refer this [paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html)) and it appears that all it needs is some more careful thought and tweaking.
+The loss isn't converging well at the moment. The FCN is limited by its small parameter space but the ResNetFCN - with pretrained weights on ImageNet - seems promising (refer this [paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html)) and it appears that all it needs is some more careful thought and tweaking.
 
 ## LICENSE
 The project is licensed under the MIT license.
